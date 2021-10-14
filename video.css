@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.801);
+}
+
+.player {
+    display: block;
+    margin: auto;
+    width: 50vw;
+    height: 40rem;
+    user-select: none;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+.range {
+    height: 2rem;
+    font-size: 2rem;
+    width: 30vw;
+    position: relative;
+    left: 36%;
+}
+
+.fas {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-right: 13px;
+    text-align: center;
+}
+
+.fas:hover {
+    background: rgba(255, 255, 255, 0.863);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-radius: 15px;
+    backdrop-filter: blur(2.6px);
+    -webkit-backdrop-filter: blur(2.6px);
+    -webkit-background-clip: text;
+}
+
+.vidStuff {
+    text-align: center;
+}
+
+.vidStuff .fa-pause {
+    font-size: 2.5rem;
+    width: 40px;
+    display: none;
+}
+
+.gif {
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    height: 70px;
+    width: 200px;
+}
+
+#loop {
+    font-size: 1.9rem;
+}
+
+.volumeDiv {
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.volumeBar {
+    height: 1.5rem;
+    line-height: 2;
+}
+
+@media all and (max-width: 1200px) {
+    .player {
+        width: 70vw;
+    }
+}
