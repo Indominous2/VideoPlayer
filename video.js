@@ -45,6 +45,11 @@ let audioList = [{
         mp3: "NCS-Phoenix.mp3",
         artist: "Netrum & Halvorsen[NCS_Release]"
     },
+    {
+        img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Turn_Down_For_What_-_Single.jpg",
+        mp3: "turn.mp3",
+        artist: "DJ-Snake"
+    },
 ]
 let index = 0;
 let count = 0;
